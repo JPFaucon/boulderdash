@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="13" failures="0" name="g58990.boulderdash.model.BoardTest" time="0.086" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.5+8-Ubuntu-2ubuntu122.04"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/jp/HE2B-ESI/BA2/ATLG3/boulderdash"/>
+    <property name="java.vm.vendor" value="Private Build"/>
+    <property name="java.vendor.url" value="Unknown"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="BE"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/jp/HE2B-ESI/BA2/ATLG3/boulderdash"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="17.0.5+8-Ubuntu-2ubuntu122.04"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="maven.ext.class.path" value="/snap/netbeans/74/netbeans/java/maven-nblib/netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="/snap/netbeans/74/netbeans/java/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/snap/netbeans/74/netbeans/java/maven/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="5.15.0-56-generic"/>
+    <property name="library.jansi.path" value="/snap/netbeans/74/netbeans/java/maven/lib/jansi-native"/>
+    <property name="user.home" value="/home/jp"/>
+    <property name="user.timezone" value="Europe/Brussels"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="jp"/>
+    <property name="java.class.path" value="/snap/netbeans/74/netbeans/java/maven/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=/snap/netbeans/74/netbeans/java/maven-nblib/netbeans-eventspy.jar install"/>
+    <property name="java.home" value="/usr/lib/jvm/java-17-openjdk-amd64"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.5"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Private Build"/>
+    <property name="maven.home" value="/snap/netbeans/74/netbeans/java/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.vendor.url.bug" value="Unknown"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+  </properties>
+  <testcase classname="g58990.boulderdash.model.BoardTest" name="g58990.boulderdash.model.BoardTest.testMoveInGround" time="0.043"/>
+  <testcase classname="g58990.boulderdash.model.BoardTest" name="g58990.boulderdash.model.BoardTest.testMoveInBoulderNotEmptyBehind" time="0.003"/>
+  <testcase classname="g58990.boulderdash.model.BoardTest" name="g58990.boulderdash.model.BoardTest.testMoveInWall" time="0.004"/>
+  <testcase classname="g58990.boulderdash.model.BoardTest" name="g58990.boulderdash.model.BoardTest.testMoveInBoulderEmptyBehindHorizontal" time="0.004"/>
+  <testcase classname="g58990.boulderdash.model.BoardTest" name="g58990.boulderdash.model.BoardTest.testMoveInBoulderEmptyBehindVertical" time="0.005"/>
+  <testcase classname="g58990.boulderdash.model.BoardTest" name="g58990.boulderdash.model.BoardTest.testMoveInDiamond" time="0.004"/>
+  <testcase classname="g58990.boulderdash.model.BoardTest" name="g58990.boulderdash.model.BoardTest.testMoveInEmpty" time="0.004"/>
+  <testcase classname="g58990.boulderdash.model.BoardTest" name="g58990.boulderdash.model.BoardTest.testFallDontHaveToFall" time="0.003"/>
+  <testcase classname="g58990.boulderdash.model.BoardTest" name="g58990.boulderdash.model.BoardTest.testFallHaveToFall" time="0.002"/>
+  <testcase classname="g58990.boulderdash.model.BoardTest" name="g58990.boulderdash.model.BoardTest.testFallHaveToFallBoulderUnder" time="0.006"/>
+  <testcase classname="g58990.boulderdash.model.BoardTest" name="g58990.boulderdash.model.BoardTest.testFallHaveToFallOnSide" time="0.003"/>
+  <testcase classname="g58990.boulderdash.model.BoardTest" name="g58990.boulderdash.model.BoardTest.testFallHaveToFallMoreThanOneSquare" time="0.003"/>
+  <testcase classname="g58990.boulderdash.model.BoardTest" name="g58990.boulderdash.model.BoardTest.testFallDiamond" time="0.002"/>
+</testsuite>
